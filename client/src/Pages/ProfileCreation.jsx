@@ -69,7 +69,7 @@ const ProfileCreation = () => {
 
   const handleFormSubmit = async () => {
     try {
-      const backendEndpoint = "http://localhost:3000/new-profile";
+      const backendEndpoint = "https://anchor-full-stack.onrender.com/new-profile";
       formData['coinsEarned'] = coinsEarned;
       formData['email'] = localStorage.getItem('email');
       const newformData = new FormData();
